@@ -33,6 +33,7 @@ nav a{
     font-weight: 500;
     padding: 10px 20px;
     font-family: Rubik, sans-serif;
+    color: white;
 }
 
 nav a:hover{
@@ -72,6 +73,7 @@ h2 {
     border-bottom: 1px solid #a8a8a8;
     border-top: 1px solid #a8a8a8;
     box-shadow: 0 0 10px #ff1dce;
+    margin: 20px;
 }
 
 .section-colors {
@@ -127,8 +129,10 @@ h2 {
     background-color: #0000009e;
     color: white;
     border-radius: 15px;
-    padding: 15px;
+    padding: 25px;
     text-align: center;
+    font-family: rubik;
+    font-weight: 300;
 }
 
 .card:hover{
@@ -142,12 +146,12 @@ h2 {
 
 .card-btn {
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
     text-align: center;
-    border: none;
+    border: 1px solid white;
     border-radius: 5px;
     box-shadow: 0 0 5px #292e33;
-    background-color: #1d3763;
+    background-color: #0f2344;
     color: white;
     cursor: pointer;
     font-weight: 200;
@@ -164,3 +168,61 @@ h2 {
 .notes span{
     text-decoration: underline;
 }
+
+.section-fonts {
+    display: flex;
+    padding: 30px;
+}
+
+.font-panel{
+    text-align: center;
+    align-items: center;
+    background-color: #bebebe45;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    margin: 30px;
+    height: 350px;
+
+}
+
+.font-label{
+    color: #12f7ff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.font-panel p{
+    margin: 20px;
+    text-align: center;
+    padding: 6px;
+
+
+}
+
+.poppins {
+    font-family: Poppins, sans-serif;
+}
+
+.roboto {
+    font-family: Roboto, sans-serif;
+}
+
+.rubik{
+    font-family: rubik, sans-serif;
+}
+
+.bold{
+    font-weight:700
+}
+
+.regular{
+    font-style: normal;
+    font-weight: 200;
+}
+
+.italic{
+    font-style: italic;
+}
+
